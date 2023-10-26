@@ -12,7 +12,7 @@ public class SceneController : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             //Gameシーンを読み込む
-            SceneManager.LoadScene("Stage4");
+            SceneManager.LoadScene("Stage1");
         }
     }
 }

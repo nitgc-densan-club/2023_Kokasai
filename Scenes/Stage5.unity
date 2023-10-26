@@ -337,11 +337,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5287216787607318822, guid: f8025ef4975ec474ca3cc1da25be78b9, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5287216787607318822, guid: f8025ef4975ec474ca3cc1da25be78b9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5287216787607318822, guid: f8025ef4975ec474ca3cc1da25be78b9, type: 3}
       propertyPath: m_LocalScale.y
@@ -558,6 +558,8 @@ MonoBehaviour:
   player: {fileID: 857381804}
   text: {fileID: 158253175}
   timer: {fileID: 2015689833}
+  StageAudio: {fileID: 0}
+  GameOverAudio: {fileID: 0}
 --- !u!4 &688628358
 Transform:
   m_ObjectHideFlags: 0
@@ -8029,11 +8031,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5287216787607318822, guid: f8025ef4975ec474ca3cc1da25be78b9, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5287216787607318822, guid: f8025ef4975ec474ca3cc1da25be78b9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5287216787607318822, guid: f8025ef4975ec474ca3cc1da25be78b9, type: 3}
       propertyPath: m_LocalScale.y
@@ -8808,6 +8810,8 @@ MonoBehaviour:
   limit: 25
   text: {fileID: 158253175}
   player: {fileID: 857381804}
+  StageAudio: {fileID: 0}
+  GameOverAudio: {fileID: 0}
 --- !u!4 &2015689835
 Transform:
   m_ObjectHideFlags: 0
